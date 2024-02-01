@@ -3,7 +3,7 @@ import styles from "./MainComponent.module.css";
 
 const MainComponent = ({
   title,
-  heading,
+
   dosData,
   dontData,
   bottomTitle,

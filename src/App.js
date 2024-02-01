@@ -4,8 +4,10 @@ function App() {
   const data = {
     headerFontFamily: "'Noto Serif', serif",
     fontFamily: "'Poppins', sans-serif",
-    primaryColor: "#D6D28D",
-    secondaryColor: "#F69077",
+    dosBg: "#D6D28D",
+    dontBg: "#F69077",
+    dosHeadingColor: "#000",
+    dontHeadingColor: "#000",
     textColor: "#000",
     background: "#F4E9D5",
     boxBg: "#fff",
@@ -23,6 +25,7 @@ function App() {
     },
     dontData: {
       heading: "Don't",
+
       data: [
         "Don't overload yourself",
         "Don't neglect self-care",
@@ -35,8 +38,10 @@ function App() {
   return (
     <div
       style={{
-        "--primaryColor": data.primaryColor,
-        "--secondaryColor": data.secondaryColor,
+        "--dosBg": data.dosBg,
+        "--dontBg": data.dontBg,
+        "--dosHeadingColor": data.dosHeadingColor,
+        "--dontHeadingColor": data.dontHeadingColor,
         "--textColor": data.textColor,
         "--backgroundColor": data.background,
         "--boxBg": data.boxBg,
